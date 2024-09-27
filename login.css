@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;    
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #151b54;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #00ffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 10px;
+    height: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 0%;
+    height: 40px;
+    color: #151b54;
+    font-size: 20px;
+    border: none;
+    background-color: #00ffff;
+}
+
+button:hover {
+    padding: 0%;
+    height: 40px;
+    color: #00ffff;
+    font-size: 20px;
+    border: 3px solid #00ffff;
+    background-color: #151b54;
+}
+
+a {
+    color: #00ffff;
+}
+
+a:hover {
+    color: aliceblue;
+}

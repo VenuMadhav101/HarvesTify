@@ -1,0 +1,169 @@
+.home {
+    margin:0;
+    background-image: url('WhatsApp\ Image\ 2024-09-25\ at\ 14.05.53\ \(1\).jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: fixed;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.home .name {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    border: 5px solid #000;
+    background-size: cover;
+    color: #fff;
+    padding: 20vh;
+    display: block;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.about-us {
+    margin:0;
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: fixed;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.about-us .about-text {
+    height: 50vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    border: 5px solid #000;
+    color: #fff;
+    padding: 20vh;
+    display: block;
+    background-color: #000;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.about-us .about {
+    font-weight: 200;
+    font-size: larger;
+}
+
+.features {
+    margin-top: 0%;
+    background-color: #00072d;
+    margin: 0;
+    padding-bottom: 10vh;
+}
+
+.features .features-head  {
+    margin: 0 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 10vh;
+    display: block;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.feature-item h3 {
+    color: #ffeb00;
+}
+
+.feature-item p {
+    color: #6ec207;
+}
+
+.feature-item {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    border: 5px solid #000;
+    color: #fff;
+    padding: 10vh;
+    display: block;
+    background-color: #000;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+}
+
+.feature-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.products {
+    background-color: #000;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00072d;
+    margin: 10px;
+    padding: 10vh;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    margin: 10px;
+    margin-left: auto;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.products  .product-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    text-align: left;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.product-info h3 {
+    color: #6ec207;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.product-info p {
+    color: #ffeb00;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: x-large;
+}
+
+.product-price {
+    margin-top: auto;
+    font-size: x-large;
+    text-align: left;
+    font-weight: bold;
+    color: #6ec207;
+}
